@@ -1,4 +1,5 @@
 # assignment 1 is to create a code for printing the hellow world 10 times use of the this symbole "*"
+#print("Hello Wolrd" * 10)
 
 # Assignment 2
 
