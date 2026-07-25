@@ -10,5 +10,4 @@ print("Sum of two numbers is : ", sum)
 # modify and find the average of the two numbers instead of Sum :
 
 avg = sum/2
-
 print("The Average of two number is : ", avg)
