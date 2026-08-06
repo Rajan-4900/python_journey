@@ -21,3 +21,24 @@ print("Not equal :", x != y)
 print()
 
 # Logical Operators
+# and  ---> if both the conditions are true then it will return true otherwise false
+# # or  --> if any one of the condition is true then it will return true otherwise false
+# # not --> it will return the opposite of the condition
+
+print(x > y and x < y) #False
+print(x > y or x < y)  #True
+print(not(x > y))      #False
+
+# Assignment Operators
+a = 10
+b = 10
+
+# a = a + 5
+
+# a += 5
+# a -= 1
+# a /= 2
+# a *= 3
+a += 5   # 15
+
+print(a)   
