@@ -28,3 +28,15 @@ print("Neg Middle Char: ", neg_middle)
 # last 2 char
 neg_last_char = fav_food[-2:]       # ni
 print("Neg_Last2 Char: ", neg_last_char)
+
+print()
+# or 
+
+# finding middle value
+mid = len(fav_food)//2          # it converts decimal into integer type number
+output1 = fav_food[mid-1:mid+2]
+print("Middle Value: ", output1)
+
+# last 2 charactor
+last = fav_food[-2:]
+print("last 2 char: ", last)
