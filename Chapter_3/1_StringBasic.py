@@ -1,3 +1,5 @@
+# String Basics ----> String Is Immutable---> we can't change the value's in a string
+
 str1 = 'hello'
 str2 = "python"
 str3 = '''world'''
