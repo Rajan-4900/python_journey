@@ -20,3 +20,13 @@ print(marks)
 
 marks["Social"] = 89
 print(marks)
+
+# Or 
+
+marks2 = {}
+
+marks2["Maths1"] = 90
+marks2["Science1"] = 85
+marks2["English1"] = 88
+
+print(marks2)
