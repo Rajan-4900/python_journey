@@ -18,3 +18,7 @@ def good_morning():
 
 good_morning()
 good_morning()
+
+# 4Q. why are function used in programming? write two advantages.
+# functions are used to make the code more readable
+# And they helps in avoiding redundency --> means duplicasy
