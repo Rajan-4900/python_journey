@@ -1,0 +1,22 @@
+# 1Q. write a function Square(num) that returns the square of a number.
+def square(num):
+    return  num ** 2
+
+print(square(5))    # Output: 25
+
+print("\n")
+
+# 2Q. write a function that takes a string and returns the count of vowels and consonant separately.
+def count_vowels(userInput):
+    #define vowels
+    vowels = "aeiou AEIOU"
+
+    # consonents
+    countVowels = 0
+    countConsonent= 0
+
+    for eachChar in userInput:
+        
+    
+# 3Q. define a function converts_to_upper(word) that returns the uppercase version of the string 
+# 4Q. create a function full_nane (fname, lname) that returns 
