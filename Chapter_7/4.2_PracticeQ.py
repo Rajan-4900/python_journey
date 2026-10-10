@@ -15,8 +15,18 @@ def count_vowels(userInput):
     countVowels = 0
     countConsonent= 0
 
+    # Example Word : Rajan
     for eachChar in userInput:
-        
+        if(eachChar.isalpha()):
+            if(eachChar in vowels):
+                countVowels += 1
+            else :
+                countConsonent += 1
+
+    return countVowels, countConsonent
+# Function Call 
+vowels, consonants = count_vowels("Rajan")
+print(f"Vowels: {vowels}, Consonants: {consonants}")        # Output: Vowels:  2
     
 # 3Q. define a function converts_to_upper(word) that returns the uppercase version of the string 
 # 4Q. create a function full_nane (fname, lname) that returns 
