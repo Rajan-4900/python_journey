@@ -29,4 +29,9 @@ vowels, consonants = count_vowels("Rajan")
 print(f"Vowels: {vowels}, Consonants: {consonants}")        # Output: Vowels:  2
     
 # 3Q. define a function converts_to_upper(word) that returns the uppercase version of the string 
+def convert_to_upper(word):
+    return word.upper()
+
+print(convert_to_upper("rajan"))    # Output: RAJAN
+
 # 4Q. create a function full_nane (fname, lname) that returns 
