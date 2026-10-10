@@ -27,6 +27,8 @@ def count_vowels(userInput):
 # Function Call 
 vowels, consonants = count_vowels("Rajan")
 print(f"Vowels: {vowels}, Consonants: {consonants}")        # Output: Vowels:  2
+
+print()
     
 # 3Q. define a function converts_to_upper(word) that returns the uppercase version of the string 
 def convert_to_upper(word):
@@ -40,3 +42,23 @@ def full_name(fname, lname):
 
 FullName = full_name("Rajan", "L")
 print(FullName)    # Output: Rajan L
+
+print()
+
+# Default Arguments Questions
+# 5Q. define a function message(text="keep Learning!") and call it with and without an argument 
+def message(text="keep Learning!"):
+    print(text)
+
+# Without Argument
+message()
+# With Argument
+message("Hello Python")
+
+print()
+# 6Q. Create a function login(username, password="1234") that prints the credentials.
+def login(username, password="1234"):
+    print(f"UserName: {username}, Password: {password}")
+
+login("rajan", "123456")
+login("Python")     # Output: UserName: Python, Password: 1234
