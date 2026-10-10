@@ -34,4 +34,9 @@ def convert_to_upper(word):
 
 print(convert_to_upper("rajan"))    # Output: RAJAN
 
-# 4Q. create a function full_nane (fname, lname) that returns 
+# 4Q. create a function full_nane (fname, lname) that returns the full name joined with a space
+def full_name(fname, lname):
+    return fname + " " + lname
+
+FullName = full_name("Rajan", "L")
+print(FullName)    # Output: Rajan L
