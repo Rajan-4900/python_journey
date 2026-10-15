@@ -29,24 +29,33 @@ responses = {
     "how are you":"I am fine. Thank You",
     "who are you":"I am smart AI ChatBot",
     "happy": "Greate to hear that",
-    "what is function": "go to chapter 7 to learn about Functions"
+    "what is function": "go to chapter 7 to learn about Functions",
+    # Adding 3 new questions and responses
+    "what is your name":"I am A ChatBot created by Rajan",
+    "what is your age": "I am a chatbot, I don't have Age, But Recently I was created in 2026",
+    "sad": "I am sorry to hear that. I hope you feel better soon! How can I help You To be Happy?"
 }
 
 # Method/function to get responce of chatbot
 def getBotResponse(userQuestion):
-    userQuestion = userQuestion.lower()
+    userQuestion = userQuestion
     for eachkey in responses:
         if eachkey in userQuestion:
+            time.sleep(1)  # Adding a delay of 1 second before responding
             return responses[eachkey]
     return "I am Still In Learning Mode."
 
 
 # take user input
 while True:
-    userInput = input("me: ").strip()       # Removes unnecessary spaces from the user input
+    userInput = input("me: ").strip()   # it is used to remove the unnecessary spaces from the user input  
     reply = getBotResponse(userInput)
     print("Bot response: ", reply)
 
     if "bye" in userInput.lower():
         print("Bot response: Bye! Have a nice day.")
         break
+
+#  1Q. Add at least 3 new questions and responses to the chatbot.
+#  2Q. Add logic to respond differently if the user says "sad" or "happy"
+#  3Q. Add a delay (1 second) between questions and answer using time.sleep().
