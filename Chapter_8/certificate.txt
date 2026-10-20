@@ -1,0 +1,4 @@
+this is the new certificate file where im going to read in new way like word to word
+so this the 2nd question of this certificate.txt file 
+and this question is fiding word live 
+live word so i have writen in a sentence to get the live word
