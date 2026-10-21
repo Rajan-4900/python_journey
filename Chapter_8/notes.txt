@@ -1,0 +1,7 @@
+this is the new example of the new method reading the file using "with" keyword 
+example 
+with open("filename.txt", "r/w/a/x..") as f:
+        data = f.read()
+        print(data)
+
+as f ---> we can change the f letter to any letter its our choice 

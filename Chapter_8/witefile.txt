@@ -1,0 +1,2 @@
+
+ this is the new message from the new write function using with keyword 

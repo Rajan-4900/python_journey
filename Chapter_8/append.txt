@@ -5,3 +5,7 @@ this is the example message of append file
  it is going in the next lien of notthis is the last message to know the append method
  this is the last message to know the append method
  this is the printing message example in the terminal 
+ this is the printing message example in the terminal 
+ this is the new append method using with keyword 
+
+ this is the new append method using with keyword 

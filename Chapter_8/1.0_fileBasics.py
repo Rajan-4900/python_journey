@@ -17,3 +17,14 @@ print()
 
 appfile = open("append.txt", "a")       # this will append the file by writing new message 
 appfile.write("\n this is the printing message example in the terminal ")
+
+
+# x letter will create a new file or it will give an error if exist in the file 
+xfile = open("demofile.txt", "x")
+xfile.write("this is the x file which it will analyse this file will exist or not")
+
+# error if we run this code :
+# Traceback (most recent call last):
+#   File "d:\Coding\Python\Chapter_8\1.0_fileBasics.py", line 23, in <module>
+#     xfile = open("demofile.txt", "x")
+# FileExistsError: [Errno 17] File exists: 'demofile.txt'
