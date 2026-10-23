@@ -16,9 +16,15 @@ class laptop:
     ram = "128GB CAMM2 RAM"
     price = "₹7,99,990"
 
-# Creating 2 Object to Access Class Attributes
+# Creating 2 Object to Access Class Attributes with different Value
 Lap1 = laptop()
+Lap1.brand = "HP"
+Lap1.price = "₹1,99,990"
 print(Lap1.brand)
+print(Lap1.price)
+
+print() 
 
 Lap2 = laptop()
+print(Lap2.brand)
 print(Lap2.ram)
