@@ -54,14 +54,14 @@ def save_file():
     messagebox.showinfo("Info", "File saved succesfully")
 
 # Menu Bar
-menu = tk.Menu(root)
-root.config(menu = menu)
-file_menu = tk.Menu(menu)
+menuBar = tk.Menu(root)
+root.config(menu = menuBar)
+file_menu = tk.Menu(menuBar)
 
 # new file, open file, save file, exit file
 
 # Add file menu to menu bar
-menu.add_cascade(label="File", menu=file_menu)
+menuBar.add_cascade(label="File", menu=file_menu)
 
 # File menu inside the options List
 file_menu.add_command(label="New File", command=new_file)
